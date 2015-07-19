@@ -1,0 +1,564 @@
+En1 // !$*UTF8*$! 
+2 { 
+3 	archiveVersion = 1; 
+4 	classes = { 
+5 	}; 
+6 	objectVersion = 46; 
+7 	objects = { 
+8 
+ 
+9 /* Begin PBXBuildFile section */ 
+10 		E31DF78718E61B4A007F3A8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31DF78618E61B4A007F3A8F /* Foundation.framework */; }; 
+11 		E31DF78918E61B4A007F3A8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31DF78818E61B4A007F3A8F /* CoreGraphics.framework */; }; 
+12 		E31DF78B18E61B4A007F3A8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31DF78A18E61B4A007F3A8F /* UIKit.framework */; }; 
+13 		E31DF79118E61B4A007F3A8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E31DF78F18E61B4A007F3A8F /* InfoPlist.strings */; }; 
+14 		E31DF79318E61B4A007F3A8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DF79218E61B4A007F3A8F /* main.m */; }; 
+15 		E31DF79718E61B4A007F3A8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DF79618E61B4A007F3A8F /* AppDelegate.m */; }; 
+16 		E31DF79918E61B4A007F3A8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31DF79818E61B4A007F3A8F /* Images.xcassets */; }; 
+17 		E31DF7A018E61B4A007F3A8F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31DF79F18E61B4A007F3A8F /* XCTest.framework */; }; 
+18 		E31DF7A118E61B4A007F3A8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31DF78618E61B4A007F3A8F /* Foundation.framework */; }; 
+19 		E31DF7A218E61B4A007F3A8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31DF78A18E61B4A007F3A8F /* UIKit.framework */; }; 
+20 		E31DF7AA18E61B4A007F3A8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E31DF7A818E61B4A007F3A8F /* InfoPlist.strings */; }; 
+21 		E31DF7AC18E61B4A007F3A8F /* SecretTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DF7AB18E61B4A007F3A8F /* SecretTestAppTests.m */; }; 
+22 		E31DF7B718E61B60007F3A8F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DF7B618E61B60007F3A8F /* RootViewController.m */; }; 
+23 		E31DF7B918E62E64007F3A8F /* bluejay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E31DF7B818E62E64007F3A8F /* bluejay.jpg */; }; 
+24 		E31DF7BC18E64CED007F3A8F /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DF7BB18E64CED007F3A8F /* UIImage+ImageEffects.m */; }; 
+25 		E31DF7C018E678DE007F3A8F /* secret.png in Resources */ = {isa = PBXBuildFile; fileRef = E31DF7BF18E678DE007F3A8F /* secret.png */; }; 
+26 		E31DF7C318E67CD3007F3A8F /* ToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DF7C218E67CD3007F3A8F /* ToolBarView.m */; }; 
+27 		E31DF7C918E746A6007F3A8F /* UIFont+SecretFont.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DF7C818E746A6007F3A8F /* UIFont+SecretFont.m */; }; 
+28 		E31DF7CC18E7EA47007F3A8F /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E31DF7CB18E7EA47007F3A8F /* CommentCell.m */; }; 
+29 		E3920CC218EA1A7300C0DF6C /* like_greyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CBF18EA1A7300C0DF6C /* like_greyIcon.png */; }; 
+30 		E3920CC518EA27AE00C0DF6C /* likeButton_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CC318EA27AE00C0DF6C /* likeButton_selected.png */; }; 
+31 		E3920CC618EA27AE00C0DF6C /* likeButton_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CC418EA27AE00C0DF6C /* likeButton_unselected.png */; }; 
+32 		E3920CC818EA283700C0DF6C /* likeButton_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CC718EA283700C0DF6C /* likeButton_highlighted.png */; }; 
+33 		E3920CED18EB3FF400C0DF6C /* UIView+GradientMask.m in Sources */ = {isa = PBXBuildFile; fileRef = E3920CEC18EB3FF400C0DF6C /* UIView+GradientMask.m */; }; 
+34 		E3920CF118EB471A00C0DF6C /* moreButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CF018EB471A00C0DF6C /* moreButton.png */; }; 
+35 		E3920CF518EB4CC400C0DF6C /* likeButtonToolbar_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CF218EB4CC400C0DF6C /* likeButtonToolbar_unselected.png */; }; 
+36 		E3920CF618EB4CC400C0DF6C /* commentButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CF318EB4CC400C0DF6C /* commentButton.png */; }; 
+37 		E3920CF718EB4CC400C0DF6C /* likeButtonToolbar_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = E3920CF418EB4CC400C0DF6C /* likeButtonToolbar_selected.png */; }; 
+38 /* End PBXBuildFile section */ 
+39 
+ 
+40 /* Begin PBXContainerItemProxy section */ 
+41 		E31DF7A318E61B4A007F3A8F /* PBXContainerItemProxy */ = { 
+42 			isa = PBXContainerItemProxy; 
+43 			containerPortal = E31DF77B18E61B4A007F3A8F /* Project object */; 
+44 			proxyType = 1; 
+45 			remoteGlobalIDString = E31DF78218E61B4A007F3A8F; 
+46 			remoteInfo = SecretTestApp; 
+47 		}; 
+48 /* End PBXContainerItemProxy section */ 
+49 
+ 
+50 /* Begin PBXFileReference section */ 
+51 		E31DF78318E61B4A007F3A8F /* SecretTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; }; 
+52 		E31DF78618E61B4A007F3A8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; }; 
+53 		E31DF78818E61B4A007F3A8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; }; 
+54 		E31DF78A18E61B4A007F3A8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; }; 
+55 		E31DF78E18E61B4A007F3A8F /* SecretTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretTestApp-Info.plist"; sourceTree = "<group>"; }; 
+56 		E31DF79018E61B4A007F3A8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; }; 
+57 		E31DF79218E61B4A007F3A8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; }; 
+58 		E31DF79418E61B4A007F3A8F /* SecretTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretTestApp-Prefix.pch"; sourceTree = "<group>"; }; 
+59 		E31DF79518E61B4A007F3A8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; }; 
+60 		E31DF79618E61B4A007F3A8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; }; 
+61 		E31DF79818E61B4A007F3A8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; }; 
+62 		E31DF79E18E61B4A007F3A8F /* SecretTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; }; 
+63 		E31DF79F18E61B4A007F3A8F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; }; 
+64 		E31DF7A718E61B4A007F3A8F /* SecretTestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretTestAppTests-Info.plist"; sourceTree = "<group>"; }; 
+65 		E31DF7A918E61B4A007F3A8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; }; 
+66 		E31DF7AB18E61B4A007F3A8F /* SecretTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretTestAppTests.m; sourceTree = "<group>"; }; 
+67 		E31DF7B518E61B60007F3A8F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; }; 
+68 		E31DF7B618E61B60007F3A8F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; }; 
+69 		E31DF7B818E62E64007F3A8F /* bluejay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bluejay.jpg; sourceTree = "<group>"; }; 
+70 		E31DF7BA18E64CED007F3A8F /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; }; 
+71 		E31DF7BB18E64CED007F3A8F /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; }; 
+72 		E31DF7BF18E678DE007F3A8F /* secret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secret.png; sourceTree = "<group>"; }; 
+73 		E31DF7C118E67CD3007F3A8F /* ToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBarView.h; sourceTree = "<group>"; }; 
+74 		E31DF7C218E67CD3007F3A8F /* ToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBarView.m; sourceTree = "<group>"; }; 
+75 		E31DF7C718E746A6007F3A8F /* UIFont+SecretFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+SecretFont.h"; sourceTree = "<group>"; }; 
+76 		E31DF7C818E746A6007F3A8F /* UIFont+SecretFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+SecretFont.m"; sourceTree = "<group>"; }; 
+77 		E31DF7CA18E7EA47007F3A8F /* CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; }; 
+78 		E31DF7CB18E7EA47007F3A8F /* CommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCell.m; sourceTree = "<group>"; }; 
+79 		E3920CBF18EA1A7300C0DF6C /* like_greyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like_greyIcon.png; sourceTree = "<group>"; }; 
+80 		E3920CC318EA27AE00C0DF6C /* likeButton_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likeButton_selected.png; sourceTree = "<group>"; }; 
+81 		E3920CC418EA27AE00C0DF6C /* likeButton_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likeButton_unselected.png; sourceTree = "<group>"; }; 
+82 		E3920CC718EA283700C0DF6C /* likeButton_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likeButton_highlighted.png; sourceTree = "<group>"; }; 
+83 		E3920CEB18EB3FF400C0DF6C /* UIView+GradientMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GradientMask.h"; sourceTree = "<group>"; }; 
+84 		E3920CEC18EB3FF400C0DF6C /* UIView+GradientMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GradientMask.m"; sourceTree = "<group>"; }; 
+85 		E3920CF018EB471A00C0DF6C /* moreButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moreButton.png; sourceTree = "<group>"; }; 
+86 		E3920CF218EB4CC400C0DF6C /* likeButtonToolbar_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likeButtonToolbar_unselected.png; sourceTree = "<group>"; }; 
+87 		E3920CF318EB4CC400C0DF6C /* commentButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = commentButton.png; sourceTree = "<group>"; }; 
+88 		E3920CF418EB4CC400C0DF6C /* likeButtonToolbar_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likeButtonToolbar_selected.png; sourceTree = "<group>"; }; 
+89 /* End PBXFileReference section */ 
+90 
+ 
+91 /* Begin PBXFrameworksBuildPhase section */ 
+92 		E31DF78018E61B4A007F3A8F /* Frameworks */ = { 
+93 			isa = PBXFrameworksBuildPhase; 
+94 			buildActionMask = 2147483647; 
+95 			files = ( 
+96 				E31DF78918E61B4A007F3A8F /* CoreGraphics.framework in Frameworks */, 
+97 				E31DF78B18E61B4A007F3A8F /* UIKit.framework in Frameworks */, 
+98 				E31DF78718E61B4A007F3A8F /* Foundation.framework in Frameworks */, 
+99 			); 
+100 			runOnlyForDeploymentPostprocessing = 0; 
+101 		}; 
+102 		E31DF79B18E61B4A007F3A8F /* Frameworks */ = { 
+103 			isa = PBXFrameworksBuildPhase; 
+104 			buildActionMask = 2147483647; 
+105 			files = ( 
+106 				E31DF7A018E61B4A007F3A8F /* XCTest.framework in Frameworks */, 
+107 				E31DF7A218E61B4A007F3A8F /* UIKit.framework in Frameworks */, 
+108 				E31DF7A118E61B4A007F3A8F /* Foundation.framework in Frameworks */, 
+109 			); 
+110 			runOnlyForDeploymentPostprocessing = 0; 
+111 		}; 
+112 /* End PBXFrameworksBuildPhase section */ 
+113 
+ 
+114 /* Begin PBXGroup section */ 
+115 		E31DF77A18E61B4A007F3A8F = { 
+116 			isa = PBXGroup; 
+117 			children = ( 
+118 				E31DF78C18E61B4A007F3A8F /* SecretTestApp */, 
+119 				E31DF7A518E61B4A007F3A8F /* SecretTestAppTests */, 
+120 				E31DF78518E61B4A007F3A8F /* Frameworks */, 
+121 				E31DF78418E61B4A007F3A8F /* Products */, 
+122 			); 
+123 			sourceTree = "<group>"; 
+124 		}; 
+125 		E31DF78418E61B4A007F3A8F /* Products */ = { 
+126 			isa = PBXGroup; 
+127 			children = ( 
+128 				E31DF78318E61B4A007F3A8F /* SecretTestApp.app */, 
+129 				E31DF79E18E61B4A007F3A8F /* SecretTestAppTests.xctest */, 
+130 			); 
+131 			name = Products; 
+132 			sourceTree = "<group>"; 
+133 		}; 
+134 		E31DF78518E61B4A007F3A8F /* Frameworks */ = { 
+135 			isa = PBXGroup; 
+136 			children = ( 
+137 				E31DF78618E61B4A007F3A8F /* Foundation.framework */, 
+138 				E31DF78818E61B4A007F3A8F /* CoreGraphics.framework */, 
+139 				E31DF78A18E61B4A007F3A8F /* UIKit.framework */, 
+140 				E31DF79F18E61B4A007F3A8F /* XCTest.framework */, 
+141 			); 
+142 			name = Frameworks; 
+143 			sourceTree = "<group>"; 
+144 		}; 
+145 		E31DF78C18E61B4A007F3A8F /* SecretTestApp */ = { 
+146 			isa = PBXGroup; 
+147 			children = ( 
+148 				E31DF79518E61B4A007F3A8F /* AppDelegate.h */, 
+149 				E31DF79618E61B4A007F3A8F /* AppDelegate.m */, 
+150 				E3920CCC18EA4A4200C0DF6C /* Resources */, 
+151 				E3920D1718EB9C0500C0DF6C /* Categories */, 
+152 				E31DF7B518E61B60007F3A8F /* RootViewController.h */, 
+153 				E31DF7B618E61B60007F3A8F /* RootViewController.m */, 
+154 				E31DF7CA18E7EA47007F3A8F /* CommentCell.h */, 
+155 				E31DF7CB18E7EA47007F3A8F /* CommentCell.m */, 
+156 				E31DF7C118E67CD3007F3A8F /* ToolBarView.h */, 
+157 				E31DF7C218E67CD3007F3A8F /* ToolBarView.m */, 
+158 				E31DF79818E61B4A007F3A8F /* Images.xcassets */, 
+159 				E31DF78D18E61B4A007F3A8F /* Supporting Files */, 
+160 			); 
+161 			path = SecretTestApp; 
+162 			sourceTree = "<group>"; 
+163 		}; 
+164 		E31DF78D18E61B4A007F3A8F /* Supporting Files */ = { 
+165 			isa = PBXGroup; 
+166 			children = ( 
+167 				E31DF78E18E61B4A007F3A8F /* SecretTestApp-Info.plist */, 
+168 				E31DF78F18E61B4A007F3A8F /* InfoPlist.strings */, 
+169 				E31DF79218E61B4A007F3A8F /* main.m */, 
+170 				E31DF79418E61B4A007F3A8F /* SecretTestApp-Prefix.pch */, 
+171 			); 
+172 			name = "Supporting Files"; 
+173 			sourceTree = "<group>"; 
+174 		}; 
+175 		E31DF7A518E61B4A007F3A8F /* SecretTestAppTests */ = { 
+176 			isa = PBXGroup; 
+177 			children = ( 
+178 				E31DF7AB18E61B4A007F3A8F /* SecretTestAppTests.m */, 
+179 				E31DF7A618E61B4A007F3A8F /* Supporting Files */, 
+180 			); 
+181 			path = SecretTestAppTests; 
+182 			sourceTree = "<group>"; 
+183 		}; 
+184 		E31DF7A618E61B4A007F3A8F /* Supporting Files */ = { 
+185 			isa = PBXGroup; 
+186 			children = ( 
+187 				E31DF7A718E61B4A007F3A8F /* SecretTestAppTests-Info.plist */, 
+188 				E31DF7A818E61B4A007F3A8F /* InfoPlist.strings */, 
+189 			); 
+190 			name = "Supporting Files"; 
+191 			sourceTree = "<group>"; 
+192 		}; 
+193 		E3920CCC18EA4A4200C0DF6C /* Resources */ = { 
+194 			isa = PBXGroup; 
+195 			children = ( 
+196 				E3920CF018EB471A00C0DF6C /* moreButton.png */, 
+197 				E3920CC318EA27AE00C0DF6C /* likeButton_selected.png */, 
+198 				E3920CC418EA27AE00C0DF6C /* likeButton_unselected.png */, 
+199 				E3920CC718EA283700C0DF6C /* likeButton_highlighted.png */, 
+200 				E3920CBF18EA1A7300C0DF6C /* like_greyIcon.png */, 
+201 				E31DF7B818E62E64007F3A8F /* bluejay.jpg */, 
+202 				E31DF7BF18E678DE007F3A8F /* secret.png */, 
+203 				E3920CF218EB4CC400C0DF6C /* likeButtonToolbar_unselected.png */, 
+204 				E3920CF318EB4CC400C0DF6C /* commentButton.png */, 
+205 				E3920CF418EB4CC400C0DF6C /* likeButtonToolbar_selected.png */, 
+206 			); 
+207 			name = Resources; 
+208 			sourceTree = "<group>"; 
+209 		}; 
+210 		E3920D1718EB9C0500C0DF6C /* Categories */ = { 
+211 			isa = PBXGroup; 
+212 			children = ( 
+213 				E31DF7C718E746A6007F3A8F /* UIFont+SecretFont.h */, 
+214 				E31DF7C818E746A6007F3A8F /* UIFont+SecretFont.m */, 
+215 				E31DF7BA18E64CED007F3A8F /* UIImage+ImageEffects.h */, 
+216 				E31DF7BB18E64CED007F3A8F /* UIImage+ImageEffects.m */, 
+217 				E3920CEB18EB3FF400C0DF6C /* UIView+GradientMask.h */, 
+218 				E3920CEC18EB3FF400C0DF6C /* UIView+GradientMask.m */, 
+219 			); 
+220 			name = Categories; 
+221 			sourceTree = "<group>"; 
+222 		}; 
+223 /* End PBXGroup section */ 
+224 
+ 
+225 /* Begin PBXNativeTarget section */ 
+226 		E31DF78218E61B4A007F3A8F /* SecretTestApp */ = { 
+227 			isa = PBXNativeTarget; 
+228 			buildConfigurationList = E31DF7AF18E61B4A007F3A8F /* Build configuration list for PBXNativeTarget "SecretTestApp" */; 
+229 			buildPhases = ( 
+230 				E31DF77F18E61B4A007F3A8F /* Sources */, 
+231 				E31DF78018E61B4A007F3A8F /* Frameworks */, 
+232 				E31DF78118E61B4A007F3A8F /* Resources */, 
+233 			); 
+234 			buildRules = ( 
+235 			); 
+236 			dependencies = ( 
+237 			); 
+238 			name = SecretTestApp; 
+239 			productName = SecretTestApp; 
+240 			productReference = E31DF78318E61B4A007F3A8F /* SecretTestApp.app */; 
+241 			productType = "com.apple.product-type.application"; 
+242 		}; 
+243 		E31DF79D18E61B4A007F3A8F /* SecretTestAppTests */ = { 
+244 			isa = PBXNativeTarget; 
+245 			buildConfigurationList = E31DF7B218E61B4A007F3A8F /* Build configuration list for PBXNativeTarget "SecretTestAppTests" */; 
+246 			buildPhases = ( 
+247 				E31DF79A18E61B4A007F3A8F /* Sources */, 
+248 				E31DF79B18E61B4A007F3A8F /* Frameworks */, 
+249 				E31DF79C18E61B4A007F3A8F /* Resources */, 
+250 			); 
+251 			buildRules = ( 
+252 			); 
+253 			dependencies = ( 
+254 				E31DF7A418E61B4A007F3A8F /* PBXTargetDependency */, 
+255 			); 
+256 			name = SecretTestAppTests; 
+257 			productName = SecretTestAppTests; 
+258 			productReference = E31DF79E18E61B4A007F3A8F /* SecretTestAppTests.xctest */; 
+259 			productType = "com.apple.product-type.bundle.unit-test"; 
+260 		}; 
+261 /* End PBXNativeTarget section */ 
+262 
+ 
+263 /* Begin PBXProject section */ 
+264 		E31DF77B18E61B4A007F3A8F /* Project object */ = { 
+265 			isa = PBXProject; 
+266 			attributes = { 
+267 				LastUpgradeCheck = 0500; 
+268 				ORGANIZATIONNAME = "Aaron Pang"; 
+269 				TargetAttributes = { 
+270 					E31DF79D18E61B4A007F3A8F = { 
+271 						TestTargetID = E31DF78218E61B4A007F3A8F; 
+272 					}; 
+273 				}; 
+274 			}; 
+275 			buildConfigurationList = E31DF77E18E61B4A007F3A8F /* Build configuration list for PBXProject "SecretTestApp" */; 
+276 			compatibilityVersion = "Xcode 3.2"; 
+277 			developmentRegion = English; 
+278 			hasScannedForEncodings = 0; 
+279 			knownRegions = ( 
+280 				en, 
+281 			); 
+282 			mainGroup = E31DF77A18E61B4A007F3A8F; 
+283 			productRefGroup = E31DF78418E61B4A007F3A8F /* Products */; 
+284 			projectDirPath = ""; 
+285 			projectRoot = ""; 
+286 			targets = ( 
+287 				E31DF78218E61B4A007F3A8F /* SecretTestApp */, 
+288 				E31DF79D18E61B4A007F3A8F /* SecretTestAppTests */, 
+289 			); 
+290 		}; 
+291 /* End PBXProject section */ 
+292 
+ 
+293 /* Begin PBXResourcesBuildPhase section */ 
+294 		E31DF78118E61B4A007F3A8F /* Resources */ = { 
+295 			isa = PBXResourcesBuildPhase; 
+296 			buildActionMask = 2147483647; 
+297 			files = ( 
+298 				E3920CF518EB4CC400C0DF6C /* likeButtonToolbar_unselected.png in Resources */, 
+299 				E31DF7B918E62E64007F3A8F /* bluejay.jpg in Resources */, 
+300 				E31DF79118E61B4A007F3A8F /* InfoPlist.strings in Resources */, 
+301 				E3920CF118EB471A00C0DF6C /* moreButton.png in Resources */, 
+302 				E3920CC618EA27AE00C0DF6C /* likeButton_unselected.png in Resources */, 
+303 				E31DF79918E61B4A007F3A8F /* Images.xcassets in Resources */, 
+304 				E3920CC518EA27AE00C0DF6C /* likeButton_selected.png in Resources */, 
+305 				E3920CC218EA1A7300C0DF6C /* like_greyIcon.png in Resources */, 
+306 				E3920CC818EA283700C0DF6C /* likeButton_highlighted.png in Resources */, 
+307 				E3920CF718EB4CC400C0DF6C /* likeButtonToolbar_selected.png in Resources */, 
+308 				E31DF7C018E678DE007F3A8F /* secret.png in Resources */, 
+309 				E3920CF618EB4CC400C0DF6C /* commentButton.png in Resources */, 
+310 			); 
+311 			runOnlyForDeploymentPostprocessing = 0; 
+312 		}; 
+313 		E31DF79C18E61B4A007F3A8F /* Resources */ = { 
+314 			isa = PBXResourcesBuildPhase; 
+315 			buildActionMask = 2147483647; 
+316 			files = ( 
+317 				E31DF7AA18E61B4A007F3A8F /* InfoPlist.strings in Resources */, 
+318 			); 
+319 			runOnlyForDeploymentPostprocessing = 0; 
+320 		}; 
+321 /* End PBXResourcesBuildPhase section */ 
+322 
+ 
+323 /* Begin PBXSourcesBuildPhase section */ 
+324 		E31DF77F18E61B4A007F3A8F /* Sources */ = { 
+325 			isa = PBXSourcesBuildPhase; 
+326 			buildActionMask = 2147483647; 
+327 			files = ( 
+328 				E31DF7BC18E64CED007F3A8F /* UIImage+ImageEffects.m in Sources */, 
+329 				E31DF7C318E67CD3007F3A8F /* ToolBarView.m in Sources */, 
+330 				E31DF7CC18E7EA47007F3A8F /* CommentCell.m in Sources */, 
+331 				E31DF79718E61B4A007F3A8F /* AppDelegate.m in Sources */, 
+332 				E31DF79318E61B4A007F3A8F /* main.m in Sources */, 
+333 				E31DF7B718E61B60007F3A8F /* RootViewController.m in Sources */, 
+334 				E3920CED18EB3FF400C0DF6C /* UIView+GradientMask.m in Sources */, 
+335 				E31DF7C918E746A6007F3A8F /* UIFont+SecretFont.m in Sources */, 
+336 			); 
+337 			runOnlyForDeploymentPostprocessing = 0; 
+338 		}; 
+339 		E31DF79A18E61B4A007F3A8F /* Sources */ = { 
+340 			isa = PBXSourcesBuildPhase; 
+341 			buildActionMask = 2147483647; 
+342 			files = ( 
+343 				E31DF7AC18E61B4A007F3A8F /* SecretTestAppTests.m in Sources */, 
+344 			); 
+345 			runOnlyForDeploymentPostprocessing = 0; 
+346 		}; 
+347 /* End PBXSourcesBuildPhase section */ 
+348 
+ 
+349 /* Begin PBXTargetDependency section */ 
+350 		E31DF7A418E61B4A007F3A8F /* PBXTargetDependency */ = { 
+351 			isa = PBXTargetDependency; 
+352 			target = E31DF78218E61B4A007F3A8F /* SecretTestApp */; 
+353 			targetProxy = E31DF7A318E61B4A007F3A8F /* PBXContainerItemProxy */; 
+354 		}; 
+355 /* End PBXTargetDependency section */ 
+356 
+ 
+357 /* Begin PBXVariantGroup section */ 
+358 		E31DF78F18E61B4A007F3A8F /* InfoPlist.strings */ = { 
+359 			isa = PBXVariantGroup; 
+360 			children = ( 
+361 				E31DF79018E61B4A007F3A8F /* en */, 
+362 			); 
+363 			name = InfoPlist.strings; 
+364 			sourceTree = "<group>"; 
+365 		}; 
+366 		E31DF7A818E61B4A007F3A8F /* InfoPlist.strings */ = { 
+367 			isa = PBXVariantGroup; 
+368 			children = ( 
+369 				E31DF7A918E61B4A007F3A8F /* en */, 
+370 			); 
+371 			name = InfoPlist.strings; 
+372 			sourceTree = "<group>"; 
+373 		}; 
+374 /* End PBXVariantGroup section */ 
+375 
+ 
+376 /* Begin XCBuildConfiguration section */ 
+377 		E31DF7AD18E61B4A007F3A8F /* Debug */ = { 
+378 			isa = XCBuildConfiguration; 
+379 			buildSettings = { 
+380 				ALWAYS_SEARCH_USER_PATHS = NO; 
+381 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)"; 
+382 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x"; 
+383 				CLANG_CXX_LIBRARY = "libc++"; 
+384 				CLANG_ENABLE_MODULES = YES; 
+385 				CLANG_ENABLE_OBJC_ARC = YES; 
+386 				CLANG_WARN_BOOL_CONVERSION = YES; 
+387 				CLANG_WARN_CONSTANT_CONVERSION = YES; 
+388 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR; 
+389 				CLANG_WARN_EMPTY_BODY = YES; 
+390 				CLANG_WARN_ENUM_CONVERSION = YES; 
+391 				CLANG_WARN_INT_CONVERSION = YES; 
+392 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR; 
+393 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES; 
+394 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer"; 
+395 				COPY_PHASE_STRIP = NO; 
+396 				GCC_C_LANGUAGE_STANDARD = gnu99; 
+397 				GCC_DYNAMIC_NO_PIC = NO; 
+398 				GCC_OPTIMIZATION_LEVEL = 0; 
+399 				GCC_PREPROCESSOR_DEFINITIONS = ( 
+400 					"DEBUG=1", 
+401 					"$(inherited)", 
+402 				); 
+403 				GCC_SYMBOLS_PRIVATE_EXTERN = NO; 
+404 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES; 
+405 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR; 
+406 				GCC_WARN_UNDECLARED_SELECTOR = YES; 
+407 				GCC_WARN_UNINITIALIZED_AUTOS = YES; 
+408 				GCC_WARN_UNUSED_FUNCTION = YES; 
+409 				GCC_WARN_UNUSED_VARIABLE = YES; 
+410 				IPHONEOS_DEPLOYMENT_TARGET = 7.0; 
+411 				ONLY_ACTIVE_ARCH = YES; 
+412 				SDKROOT = iphoneos; 
+413 			}; 
+414 			name = Debug; 
+415 		}; 
+416 		E31DF7AE18E61B4A007F3A8F /* Release */ = { 
+417 			isa = XCBuildConfiguration; 
+418 			buildSettings = { 
+419 				ALWAYS_SEARCH_USER_PATHS = NO; 
+420 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)"; 
+421 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x"; 
+422 				CLANG_CXX_LIBRARY = "libc++"; 
+423 				CLANG_ENABLE_MODULES = YES; 
+424 				CLANG_ENABLE_OBJC_ARC = YES; 
+425 				CLANG_WARN_BOOL_CONVERSION = YES; 
+426 				CLANG_WARN_CONSTANT_CONVERSION = YES; 
+427 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR; 
+428 				CLANG_WARN_EMPTY_BODY = YES; 
+429 				CLANG_WARN_ENUM_CONVERSION = YES; 
+430 				CLANG_WARN_INT_CONVERSION = YES; 
+431 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR; 
+432 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES; 
+433 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer"; 
+434 				COPY_PHASE_STRIP = YES; 
+435 				ENABLE_NS_ASSERTIONS = NO; 
+436 				GCC_C_LANGUAGE_STANDARD = gnu99; 
+437 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES; 
+438 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR; 
+439 				GCC_WARN_UNDECLARED_SELECTOR = YES; 
+440 				GCC_WARN_UNINITIALIZED_AUTOS = YES; 
+441 				GCC_WARN_UNUSED_FUNCTION = YES; 
+442 				GCC_WARN_UNUSED_VARIABLE = YES; 
+443 				IPHONEOS_DEPLOYMENT_TARGET = 7.0; 
+444 				SDKROOT = iphoneos; 
+445 				VALIDATE_PRODUCT = YES; 
+446 			}; 
+447 			name = Release; 
+448 		}; 
+449 		E31DF7B018E61B4A007F3A8F /* Debug */ = { 
+450 			isa = XCBuildConfiguration; 
+451 			buildSettings = { 
+452 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; 
+453 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage; 
+454 				GCC_PRECOMPILE_PREFIX_HEADER = YES; 
+455 				GCC_PREFIX_HEADER = "SecretTestApp/SecretTestApp-Prefix.pch"; 
+456 				INFOPLIST_FILE = "SecretTestApp/SecretTestApp-Info.plist"; 
+457 				IPHONEOS_DEPLOYMENT_TARGET = 6.1; 
+458 				PRODUCT_NAME = "$(TARGET_NAME)"; 
+459 				WRAPPER_EXTENSION = app; 
+460 			}; 
+461 			name = Debug; 
+462 		}; 
+463 		E31DF7B118E61B4A007F3A8F /* Release */ = { 
+464 			isa = XCBuildConfiguration; 
+465 			buildSettings = { 
+466 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; 
+467 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage; 
+468 				GCC_PRECOMPILE_PREFIX_HEADER = YES; 
+469 				GCC_PREFIX_HEADER = "SecretTestApp/SecretTestApp-Prefix.pch"; 
+470 				INFOPLIST_FILE = "SecretTestApp/SecretTestApp-Info.plist"; 
+471 				IPHONEOS_DEPLOYMENT_TARGET = 6.1; 
+472 				PRODUCT_NAME = "$(TARGET_NAME)"; 
+473 				WRAPPER_EXTENSION = app; 
+474 			}; 
+475 			name = Release; 
+476 		}; 
+477 		E31DF7B318E61B4A007F3A8F /* Debug */ = { 
+478 			isa = XCBuildConfiguration; 
+479 			buildSettings = { 
+480 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)"; 
+481 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecretTestApp.app/SecretTestApp"; 
+482 				FRAMEWORK_SEARCH_PATHS = ( 
+483 					"$(SDKROOT)/Developer/Library/Frameworks", 
+484 					"$(inherited)", 
+485 					"$(DEVELOPER_FRAMEWORKS_DIR)", 
+486 				); 
+487 				GCC_PRECOMPILE_PREFIX_HEADER = YES; 
+488 				GCC_PREFIX_HEADER = "SecretTestApp/SecretTestApp-Prefix.pch"; 
+489 				GCC_PREPROCESSOR_DEFINITIONS = ( 
+490 					"DEBUG=1", 
+491 					"$(inherited)", 
+492 				); 
+493 				INFOPLIST_FILE = "SecretTestAppTests/SecretTestAppTests-Info.plist"; 
+494 				PRODUCT_NAME = "$(TARGET_NAME)"; 
+495 				TEST_HOST = "$(BUNDLE_LOADER)"; 
+496 				WRAPPER_EXTENSION = xctest; 
+497 			}; 
+498 			name = Debug; 
+499 		}; 
+500 		E31DF7B418E61B4A007F3A8F /* Release */ = { 
+501 			isa = XCBuildConfiguration; 
+502 			buildSettings = { 
+503 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)"; 
+504 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecretTestApp.app/SecretTestApp"; 
+505 				FRAMEWORK_SEARCH_PATHS = ( 
+506 					"$(SDKROOT)/Developer/Library/Frameworks", 
+507 					"$(inherited)", 
+508 					"$(DEVELOPER_FRAMEWORKS_DIR)", 
+509 				); 
+510 				GCC_PRECOMPILE_PREFIX_HEADER = YES; 
+511 				GCC_PREFIX_HEADER = "SecretTestApp/SecretTestApp-Prefix.pch"; 
+512 				INFOPLIST_FILE = "SecretTestAppTests/SecretTestAppTests-Info.plist"; 
+513 				PRODUCT_NAME = "$(TARGET_NAME)"; 
+514 				TEST_HOST = "$(BUNDLE_LOADER)"; 
+515 				WRAPPER_EXTENSION = xctest; 
+516 			}; 
+517 			name = Release; 
+518 		}; 
+519 /* End XCBuildConfiguration section */ 
+520 
+ 
+521 /* Begin XCConfigurationList section */ 
+522 		E31DF77E18E61B4A007F3A8F /* Build configuration list for PBXProject "SecretTestApp" */ = { 
+523 			isa = XCConfigurationList; 
+524 			buildConfigurations = ( 
+525 				E31DF7AD18E61B4A007F3A8F /* Debug */, 
+526 				E31DF7AE18E61B4A007F3A8F /* Release */, 
+527 			); 
+528 			defaultConfigurationIsVisible = 0; 
+529 			defaultConfigurationName = Release; 
+530 		}; 
+531 		E31DF7AF18E61B4A007F3A8F /* Build configuration list for PBXNativeTarget "SecretTestApp" */ = { 
+532 			isa = XCConfigurationList; 
+533 			buildConfigurations = ( 
+534 				E31DF7B018E61B4A007F3A8F /* Debug */, 
+535 				E31DF7B118E61B4A007F3A8F /* Release */, 
+536 			); 
+537 			defaultConfigurationIsVisible = 0; 
+538 			defaultConfigurationName = Release; 
+539 		}; 
+540 		E31DF7B218E61B4A007F3A8F /* Build configuration list for PBXNativeTarget "SecretTestAppTests" */ = { 
+541 			isa = XCConfigurationList; 
+542 			buildConfigurations = ( 
+543 				E31DF7B318E61B4A007F3A8F /* Debug */, 
+544 				E31DF7B418E61B4A007F3A8F /* Release */, 
+545 			); 
+546 			defaultConfigurationIsVisible = 0; 
+547 			defaultConfigurationName = Release; 
+548 		}; 
+549 /* End XCConfigurationList section */ 
+550 	}; 
+551 	rootObject = E31DF77B18E61B4A007F3A8F /* Project object */; 
